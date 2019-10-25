@@ -8,4 +8,6 @@ for i in range(3):
     sleep(0.5)  #sleep worx ONLY with sp, BUT NOT with rut_to_rel's
     L.run_to_rel_pos(position_sp=1080, speed_sp=sp) #speed_sp=100)
     R.run_to_rel_pos(position_sp=1080, speed_sp=sp) #speed_sp=100)
+    # it seems that R.--- or L.run_to_rel_pos works thruout all cycle
+    # 
 sleep(2) #sleep needed for motor acceleration
